@@ -36,6 +36,7 @@ function validateForm() {
 	<div id="wrapper">
  		<?php include("../includes/_menu.php"); ?>
  		<div id ="page-wrapper">
+ 		<h2>Edit Role</h2><br>
 		<?php
 			
 			require("dbconnect.php");
@@ -64,9 +65,9 @@ function validateForm() {
 	<td align="center">
 		<form name="editUserForm" method="post" action="editUserDatabase.php" onsubmit="return validateForm()">
 		<table width="100%" border="0" cellspacing="1" cellpadding="3" class="table table-bordered">
-			<tr>
+			<!-- <tr>
 				<td align = "center" colspan="3"><strong>Edit User</strong></td>
-			</tr>
+			</tr> -->
 			<tr>
 				<td width="200">Username : </td>
 				<td width="400"><input name="username" type="text" id="username" value ="<?php echo $data["username"]; ?>"></td>

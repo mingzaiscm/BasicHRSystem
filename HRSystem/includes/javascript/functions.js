@@ -131,11 +131,7 @@ function validateForm(formName) {
 		var year = parseInt(yearValue);
 		var thisYear = (new Date()).getFullYear();
 		var err = document.getElementById('erryear');
-		if(year < thisYear){
-			err.innerHTML = 'The computed year is earlier than current year.';
-			valid = false;
-		}
-		else if(yearValue.length != 4){
+		if(yearValue.length != 4){
 			err.innerHTML = 'Year should be 4 digit.';
 			valid = false;
 		}

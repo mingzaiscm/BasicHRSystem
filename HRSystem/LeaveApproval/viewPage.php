@@ -38,7 +38,7 @@
 						<button type = "button" onClick = "javascript:window.location = 'update.php?status=2&leaveId=<?= $leaveApp['Leave Id'] ?>';">Disapprove</button>
 				<?php
 						endif;
-						if($status != $appStatus[3] && $status != $appStatus[2]):
+						if($status != $appStatus[3] && $status != $appStatus[2] && $leaveApp["Date From"] > $today):
 				?>
 					<button type = "button" onClick = "javascript:window.location = 'update.php?status=3&leaveId=<?= $leaveApp['Leave Id'] ?>';">Cancel</button>
 				<?php

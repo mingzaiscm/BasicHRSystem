@@ -9,6 +9,7 @@
 	<div id="wrapper">
  		<?php include("../includes/_menu.php"); ?>
  		<div id ="page-wrapper">
+ 		<h2>Role List</h2><br>
 <?php
 
 			require("dbconnect.php");
@@ -19,7 +20,7 @@
 				if($result->num_rows > 0){
 					echo "<br>";
 					echo "<table width ='500' align ='center' class = 'table table-striped table-bordered table-hover'>";
-					echo "<caption align ='center' style='font-weight:bold' >Role List </caption>";
+				
 					echo "<thead align='center'>";
 						echo "<tr>";
 							echo "<td style='font-weight:bold'>Name</td>";

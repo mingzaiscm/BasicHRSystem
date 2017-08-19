@@ -27,7 +27,7 @@
 			$icNo=$_POST['icNo'];
 			$gender=$_POST['gender'];
 			$citizenship=$_POST['citizenship'];
-			$epfNo=$_POST['epfNo'];
+			$epfNo=$_POST['epfNo'];	
 			$socsoNo=$_POST['socsoNo'];
 			$incomeTaxNo=$_POST['incomeTaxNo'];
 			$dob=$_POST['dob'];
@@ -117,7 +117,7 @@
 
 					if($_POST['companyEmail'] && $check === true){
 
-					$sql = "INSERT INTO account(username, password, roleId, employeeCode, createdBy, createdDate)
+					$sql = "INSERT INTO Account(username, password, roleId, employeeCode, createdBy, createdDate)
 					VALUES('$companyEmail', '95ccfc1881d57d6f503e52744dd4b919', 2, '$employeeCode', '$createdBy', now())";
 
 					if($mysqli->query($sql) === TRUE){
@@ -126,10 +126,11 @@
 					}
 
 					else {
-						var_dump($sql);
-						exit();
+							$sql = "UPDATE Employee SET companyEmail = NULL where employeeCode = '$employeeCode'";
+							$mysqli->query($sql);
 							echo '<script type="text/javascript">alert("Account a with that Name exist.Please try again.");
 			window.location="index.php";</script>';
+
 					}
 				}
 				echo '<script type="text/javascript">alert("Edited.");

@@ -1,0 +1,46 @@
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: permission in /home/firezett/hr/HRSystem/includes/_header.php on line 6
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/includes/_header.php on line 7
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: permission in /home/firezett/hr/HRSystem/includes/_menu.php on line 6
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/includes/_menu.php on line 7
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 40
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 41
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 42
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 54
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 68
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 69
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 70
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 71
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 72
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 73
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 74
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 75
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 118
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 119
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 120
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 121
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 122
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 123
+[19-Aug-2017 17:46:32 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/Profile/index.php on line 72
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: permission in /home/firezett/hr/HRSystem/includes/_header.php on line 6
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/includes/_header.php on line 7
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: permission in /home/firezett/hr/HRSystem/includes/_menu.php on line 6
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/includes/_menu.php on line 7
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 40
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 41
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 42
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 54
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 68
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 69
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 70
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 71
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 72
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 73
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 74
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 75
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 118
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 119
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 120
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 121
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 122
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/firezett/hr/HRSystem/includes/_menu.php on line 123
+[19-Aug-2017 19:33:56 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: employeeCode in /home/firezett/hr/HRSystem/Profile/index.php on line 72

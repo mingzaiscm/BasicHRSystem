@@ -81,7 +81,7 @@
 										</td>
 									<?php
 											endif;
-											if($key != $appStatus[3] && $key != $appStatus[2]):
+											if($key != $appStatus[3] && $key != $appStatus[2] && $leaveApp1[4] > $today):
 									?>
 										<td>
 											<button type = "button" name = '3' onClick = "confirmLeave(this, <?= $leaveApp1[0] ?>)">Cancel</button>

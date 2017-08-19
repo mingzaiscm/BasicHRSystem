@@ -32,10 +32,10 @@
 				
 				$same = false;
 				while($stmt->fetch()){
-					
-					if(($dateFrom >= $checkDateFrom && $dateFrom >= $checkDateTo)
-						|| ($dateTo >= $checkDateFrom && $dateTo >= $checkDateTo))
+					if(($dateFrom >= $checkDateFrom && $dateFrom <= $checkDateTo)
+						|| ($dateTo >= $checkDateFrom && $dateTo <= $checkDateTo)){
 						$same = true;
+					}
 				}
 					
 				if(!$same){

@@ -13,14 +13,14 @@
 <script>
 function validateForm() {
 
-	var name = document.forms["addRoleForm"]["name"].value;
+	var name = document.forms["editRoleForm"]["name"].value;
 	if(name == "") {
 		alert("Role Name is empty");
 		return false;
 
 	}
 
-	var description = document.forms["addRoleForm"]["description"].value;
+	var description = document.forms["editRoleForm"]["description"].value;
 	if(description == "") {
 		alert("Description is empty");
 		return false;
@@ -53,7 +53,7 @@ function validateForm() {
 		?>
 
 
-		<form name="editRoleForm" method="post" action="editRoleDatabase" onsubmit="return validateForm()">
+		<form name="editRoleForm" method="post" action="editRoleDatabase.php" onsubmit="return validateForm()">
 			
 				<H2>Edit Role</H2><br>
 			

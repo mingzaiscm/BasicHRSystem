@@ -76,11 +76,12 @@
 					$stmt3->bind_result($cf);
 					if(!$stmt3->fetch())
 						$cf = 0;
+					if($balance > 0):
 			?>
 				<tr>
 					<td><?= $code ?></td>
 					<td><?= $name ?></td>
-					<td><?= $balance ?></td>
+					<td><?= isset($balance)? $balance : '0' ?></td>
 					<td><?= $cf ?></td>
 					<?php
 						if(in_array('12', $permission)):
@@ -91,6 +92,7 @@
 					?>
 				</tr>
 			<?php
+					endif;
 				endwhile;
 			?>
 				</tbody>

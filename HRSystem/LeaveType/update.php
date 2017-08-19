@@ -26,7 +26,7 @@
 					$porata = (int)$porata;
 					$days = null;
 				}	
-				
+				var_dump($_POST);
 				$sql = 'UPDATE LeaveType SET criteria = ?, porata = ?, days = ?, enabled = ?, modifiedBy = ?, modifiedDate = now() WHERE leaveType = ?;';
 				$stmt = $db->prepare($sql);
 				$stmt->bind_param('iiiiss', $criteria, $porata, $days, $enabled, $modifiedBy, $leaveType);
@@ -35,7 +35,7 @@
 					if($criteria == 1){
 						$csql = 'INSERT INTO LeaveCriteria
 								(leaveType, yearFrom, yearTo, days, enabled, createdBy, createdDate)
-								VALUES(?, ?, ?, ?, ?, 1, now());';
+								VALUES(?, ?, ?, ?, 1, ?, now());';
 						$stmt = $db->prepare($csql);
 						$stmt->bind_param('siiis', $leaveType, $yearFrom, $yearTo, $days, $createdBy);
 						
@@ -55,7 +55,9 @@
 								$criteriaId = (int)$criteriaId;
 							}
 							else{
+								var_dump($leaveType, $yearFrom, $yearTo, $days, $createdBy);
 								$stmt->execute();
+								echo $db->error;
 
 								$stmt2->execute();
 								$stmt2->store_result();
@@ -63,11 +65,12 @@
 								$stmt2->fetch();
 							}
 							array_push($ids, $criteriaId);
+							
 						}
 						$idString = implode(', ', $ids);
 						$dsql = 'UPDATE LeaveCriteria SET enabled = 0, modifiedBy = ?, modifiedDate = now()
 								WHERE leaveType = ? AND criteriaId NOT IN (' . $idString . ');';
-								
+						
 						$stmt = $db->prepare($dsql);
 						$stmt->bind_param('ss', $modifiedBy, $leaveType);
 						$stmt->execute();

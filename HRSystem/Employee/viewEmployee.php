@@ -16,6 +16,7 @@ function validateForm() {
 	<div id="wrapper">
  		<?php include("../includes/_menu.php"); ?>
  		<div id ="page-wrapper">
+ 		<h2>View Employee</h2><br>
 
 		<?php
 			

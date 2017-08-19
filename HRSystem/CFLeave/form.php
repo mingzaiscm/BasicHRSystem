@@ -34,7 +34,7 @@
 									<tr>
 										<td><?= $one['code'] ?></td>
 										<td><?= $one['name'] ?></td>
-										<td><?= $one['balance'] ?></td>
+										<td><?= isset($one['balance']) ? $one['balance'] : '0' ?></td>
 										<td>
 											<?= 
 												formInput('number', "cf[$one[code]]", "cf[$one[code]]", '', 

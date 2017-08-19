@@ -1,9 +1,7 @@
 <?php
 
 		require("dbconnect.php");
-
-			session_start();
-
+		session_start();
 
     	if(!empty($_POST['password']) && !empty($_POST['newPass']) && !empty($_POST['rePass'])){ 
 		
@@ -60,7 +58,6 @@
 				else{
 					echo '<script type="text/javascript">alert("Mismatch Pass.");
 					window.location="index.php";</script>'; 
-					break;
 				}
 			}
 

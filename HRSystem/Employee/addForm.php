@@ -116,6 +116,8 @@ function validateForm() {
 	<div id="wrapper">
  		<?php include("../includes/_menu.php"); ?>
  		<div id ="page-wrapper">
+ 		<h2>Add Employee</h2><br>
+
 <table width="500" border="0" align="center" cellpadding="0" cellspacing="1" class="table table-bordered">
 <tr>
 	<td align="center">
@@ -185,11 +187,11 @@ function validateForm() {
 			</tr>
 			<tr>
 				<td>Permanent Address* :</td>
-				<td><textarea rows ="4" column="50" name="permaAddr"  id="permaAddr"></textarea><span class="error"><?php echo $permaAddrErr;?></span></td>
+				<td><textarea class="form-control", style="resize: none" rows ="4" column="50" name="permaAddr"  id="permaAddr"></textarea><span class="error"><?php echo $permaAddrErr;?></span></td>
 			</tr>
 			<tr>
 				<td>Residential Address :</td>
-				<td><textarea rows ="4" column="50" name="residentialAddr"  id="residentialAddr"></textarea></td>
+				<td><textarea class="form-control", style="resize: none" rows ="4" column="50" name="residentialAddr"  id="residentialAddr"></textarea></td>
 			</tr>
 			<tr>
 				<td>Tel No. (House) :</td>
@@ -234,7 +236,7 @@ function validateForm() {
 			</tr>
 			<tr>
 				<td>Address* : </td>
-				<td><textarea rows ="4" column="50" name="emergencyAddr"  id="emergencyAddr"></textarea><span class="error"><?php echo $emergencyAddrErr;?></span></td>
+				<td><textarea class="form-control", style="resize: none" rows ="4" column="50" name="emergencyAddr"  id="emergencyAddr"></textarea><span class="error"><?php echo $emergencyAddrErr;?></span></td>
 			</tr>
 		</table>
 
